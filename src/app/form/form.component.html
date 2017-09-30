@@ -1,0 +1,9 @@
+<p>
+  form works!
+</p>
+
+<form [formGroup]="form1">
+  Name: <input type="text" name="name" formControlName="name"/><br> <br>
+  Address: <input type="text" name="address" formControlName="address"/><br><br>
+  <button type="submit" (click)="addUser()"> Add </button>
+</form>
